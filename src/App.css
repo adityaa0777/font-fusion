@@ -177,7 +177,7 @@
     border:2px solid black;
     border-radius: 5px;
     box-shadow: black;
-    background-color: rgb(225, 217, 217);
+    background-color: rgb(17, 162, 141);
     cursor:pointer;
    
   }
@@ -187,7 +187,7 @@
     border:2px solid black;
     border-radius: 5px;
     box-shadow: black;
-    background-color: rgb(225, 217, 217);
+    background-color: rgb(17, 162, 141);
     cursor:pointer;
   }
   
@@ -196,7 +196,7 @@
     border:2px solid black;
     border-radius: 5px;
     box-shadow: black;
-    background-color: rgb(225, 217, 217);
+    background-color: rgb(17, 162, 141);
     cursor:pointer;
     
   }
@@ -206,7 +206,7 @@
     border:2px solid black;
     border-radius: 5px;
     box-shadow: black;
-    background-color: rgb(225, 217, 217);
+    background-color: rgb(17, 162, 141);
     cursor:pointer;
   }
   
@@ -215,9 +215,18 @@
     border:2px solid black;
     border-radius: 5px;
     box-shadow: black;
-    background-color: rgb(225, 217, 217);
+    background-color: rgb(17, 162, 141);
     cursor:pointer;
   }
+  #monospace{
+    font-family: "Lucida Console", Courier, monospace;
+    border:2px solid black;
+    border-radius: 5px;
+    box-shadow: black;
+    background-color: rgb(17, 162, 141);
+    cursor:pointer;
+  }
+
   #bg-images{
     display: flex;
     flex-direction: column;
@@ -268,6 +277,51 @@
     cursor: pointer;
   }
  
+  #bg-img7{
+    width:50px;
+    height:50px;
+    background-image:url("/images/aditya.jpg");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+
+  #bg-img8{
+    width:50px;
+    height:50px;
+    background-image:url("/images/adityam.jpg");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+
+  #bg-img9{
+    width:50px;
+    height:50px;
+    background-image:url("/images/adityam1.jpg");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+
+  #bg-img10{
+    width:50px;
+    height:50px;
+    background-image:url("/images/adityam2.jpg");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+
+  #bg-img11{
+    width:50px;
+    height:50px;
+    background-image:url("/images/aditya3.jpg");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+
   #images{
     display: flex;
     flex-wrap: wrap;

@@ -103,7 +103,8 @@ return(
                <h1 id='verdana' onClick={()=>{fontFamily('verdana')}}>Hello</h1>
                <h1 id='arial'  onClick={()=>{fontFamily('arial')}}>Hello</h1>
                <h1 id='impact' onClick={()=>{fontFamily('Impact')}}>Hello</h1>
-             </div>
+               <h1 id='monospace' onClick={()=>{fontFamily('monospace')}}>Hello</h1>
+                 </div>
                   </div>
 
                   <div id="bg-images">
@@ -111,13 +112,15 @@ return(
                     <div id="images">
                       <button  id="bg-img1"onClick={()=>setBackground('/images/sky.jpg')}/>
                       <button  id="bg-img2"onClick={()=>setBackground('/images/beach.webp')}/>
-
                       <button  id="bg-img3"onClick={()=>setBackground('/images/blueflower.jpg')}/>
+                       <button  id="bg-img4"onClick={()=>setBackground('/images/forest.jpg')}/>
+                       <button  id="bg-img6"onClick={()=>setBackground('/images/ocean.jpg')}/>
 
-                      <button  id="bg-img4"onClick={()=>setBackground('/images/forest.jpg')}/>
-
-                      <button  id="bg-img6"onClick={()=>setBackground('/images/ocean.jpg')}/>
-
+                       <button  id="bg-img7"onClick={()=>setBackground('/images/aditya.jpg')}/>
+                      <button  id="bg-img8"onClick={()=>setBackground('/images/adityam.jpg')}/>
+                       <button  id="bg-img9"onClick={()=>setBackground('/images/adityam1.jpg')}/>
+                       <button  id="bg-img10"onClick={()=>setBackground('/images/adityam2.jpg')}/>
+                       <button  id="bg-img11"onClick={()=>setBackground('/images/adityam3.jpg')}/>
                   
                     </div>
 
