@@ -95,7 +95,7 @@ return(
                   </div>
                 </div>
                   <div id="font-family">
-                  <h2 id='sub-heading'>Choose your Background Color</h2>
+                  <h2 id='sub-heading'>Choose your Font</h2>
                   <div id='fonts'>
                
                <h1 id='times-new' onClick={()=>{fontFamily('Times New Roman')}}>Hello</h1>

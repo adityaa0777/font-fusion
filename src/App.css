@@ -22,10 +22,9 @@
   padding: 20px 4px 20px 4px;
   row-gap:30px;
   width:100vw;
-  height:680px;
+  height:200vh;
   background-image: url("/images/background.jpeg");
-  background-position: center;
-  background-size: cover;
+ 
 }
 
 
