@@ -19,7 +19,8 @@ function App(){
   const fontFamily = (fontName) =>{
     image.current.style.fontFamily=fontName
   }
-
+ 
+    
   const downloadImage = () =>{
     screenshot(image.current).then(canvas => {
       const imageData = canvas.toDataURL("image/png")
@@ -121,7 +122,9 @@ return(
                        <button  id="bg-img9"onClick={()=>setBackground('/images/adityam1.jpg')}/>
                        <button  id="bg-img10"onClick={()=>setBackground('/images/adityam2.jpg')}/>
                        <button  id="bg-img11"onClick={()=>setBackground('/images/adityam3.jpg')}/>
-                  
+                       <button  id="bg-img12"onClick={()=>setBackground('/images/adityam4.jpg')}/>
+                       <button  id="bg-img13"onClick={()=>setBackground('/images/adityam5.jpg')}/>
+
                     </div>
 
                   </div>
@@ -137,3 +140,8 @@ return(
 
 
 export default App;
+
+
+
+
+
