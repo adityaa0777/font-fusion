@@ -23,7 +23,7 @@
   row-gap:30px;
   width:100vw;
   height:680px;
-  background-image: url("background.jpeg");
+  background-image: url("/images/background.jpeg");
   background-position: center;
   background-size: cover;
 }
@@ -230,7 +230,7 @@
   #bg-img1{
     width:50px;
     height:50px;
-    background-image:url("sky.jpg");
+    background-image:url("/images/sky.jpg");
     background-size: cover;
     border: none;
     cursor: pointer;
@@ -238,7 +238,7 @@
   #bg-img2{
     width:50px;
     height:50px;
-    background-image:url("beach.webp");
+    background-image:url("/images/beach.webp");
     background-size: cover;
     border: none;
     cursor: pointer;
@@ -246,7 +246,7 @@
   #bg-img3{
     width:50px;
     height:50px;
-    background-image:url("blueflower.jpg");
+    background-image:url("/images/blueflower.jpg");
     background-size: cover;
     border: none;
     cursor: pointer;
@@ -254,7 +254,7 @@
   #bg-img4{
     width:50px;
     height:50px;
-    background-image:url("forest.jpg");
+    background-image:url("/images/forest.jpg");
     background-size: cover;
     border: none;
     cursor: pointer;
@@ -263,7 +263,7 @@
   #bg-img6{
     width:50px;
     height:50px;
-    background-image:url("ocean.jpg");
+    background-image:url("/images/ocean.jpg");
     background-size: cover;
     border: none;
     cursor: pointer;
